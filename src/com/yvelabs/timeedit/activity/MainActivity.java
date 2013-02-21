@@ -23,6 +23,18 @@ public class MainActivity extends Activity {
         timeEdit = (TimeEdit) findViewById(R.id.timeEdit1);
         getTimeBut = (Button) findViewById(R.id.get_time_but);
         
+        /*timeEdit.setHours(hours);
+        timeEdit.setMinutes(minutes);
+        timeEdit.setSeconds(seconds);
+        
+        timeEdit.getHours();
+        timeEdit.getMinutes();
+        timeEdit.setSeconds(seconds);
+        
+        timeEdit.setTextSize(size);
+        timeEdit.setTextColor(color);
+        timeEdit.setTypeFace(typeFace);*/
+        
         getTimeBut.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
